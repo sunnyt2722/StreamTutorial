@@ -24,6 +24,8 @@ public class test1 {
 			if(actualString.startsWith("A"))
 				count++;
 		}
+		
+		namesList.forEach(s -> System.out.println("---"+s));
 		return count;
 	}
 	
@@ -92,9 +94,9 @@ public class test1 {
 	
 	public static void main(String[] args) {
 		System.out.println(basicLoop());
-		System.out.println(streamFilter());
-		System.out.println(streamMap());
-		System.out.println(streamCollect());
+//		System.out.println(streamFilter());
+//		System.out.println(streamMap());
+//		System.out.println(streamCollect());
 		
 	}
 }
